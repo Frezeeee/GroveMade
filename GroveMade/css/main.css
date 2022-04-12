@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-size: 43px;
+  line-height: 46px;
+}
+
+.header__nav-content {
+  display: flex;
+  padding: 29px 0;
+  justify-content: space-between;
+}
+.header__a {
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+.header__1 {
+  margin-right: 24px;
+}
+.header__content {
+  color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+  background-image: url(../img/bacground.png);
+  background-size: cover;
+  padding: 193px 0;
+}
+.header__h1 {
+  font-size: 43px;
+  line-height: 46px;
+  margin-bottom: 12px;
+}
+.header__p {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.8px;
+  margin-bottom: 28px;
+}
+.header__button {
+  color: white;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.h2 {
+  font-size: 43px;
+  line-height: 58px;
+}
+
+.section {
+  padding-top: 80px;
+}
+.section__content {
+  align-items: center;
+  text-align: center;
+}
+.section__h2 {
+  margin-bottom: 23px;
+}
+.section__p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: #A0A0A0;
+  margin-bottom: 26px;
+}
+.section__button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.section__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 133px;
+}
+.section__card-img {
+  margin-bottom: 51px;
+}
+.section__card-text {
+  font-size: 27px;
+  line-height: 30px;
+  margin-bottom: 23px;
+}
+.section__card-button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.catalog {
+  margin-bottom: 100px;
+}
+.catalog__h2 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.catalog__p {
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: #A0A0A0;
+  margin-bottom: 43px;
+}
+.catalog__buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.catalog__button:hover {
+  background-color: #A0A0A0;
+}
+.catalog__button {
+  background-color: black;
+  padding: 4px;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.catalog__shop {
+  display: flex;
+  justify-content: space-between;
+}
+.catalog__img {
+  margin-bottom: 23px;
+}
+.catalog__name {
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 0.7px;
+  color: #A0A0A0;
+  margin-bottom: 3px;
+}
+.catalog__price {
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: 0.7px;
+  color: #A0A0A0;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.catalog__price:hover {
+  color: black;
+}
+
+.big {
+  background-image: url(../img/bacground2.png);
+  background-size: cover;
+  color: white;
+  padding: 181px 0;
+  align-items: center;
+  text-align: center;
+}
+.big__h1 {
+  font-size: 66px;
+  line-height: 70px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+.big__p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  margin-bottom: 30px;
+}
+.big__button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.hard {
+  align-items: center;
+  text-align: center;
+  padding-top: 116px;
+}
+.hard__h2 {
+  margin-bottom: 23px;
+}
+.hard__info {
+  max-width: 777px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  color: #A0A0A0;
+  margin-bottom: 23px;
+}
+.hard__img {
+  margin-bottom: 42px;
+}
+
+.team {
+  align-items: center;
+  text-align: center;
+}
+.team__h2 {
+  margin-bottom: 23px;
+  text-align: center;
+}
+.team__info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: #A0A0A0;
+  max-width: 789px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.team__grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 25px;
+  margin-bottom: 123px;
+}
+
+.join {
+  margin-bottom: 39px;
+  text-align: center;
+}
+.join__h2 {
+  margin-bottom: 44px;
+}
+.join__button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 121px;
+}
+.join__card {
+  padding: 120px;
+  color: white;
+  background-color: #9AA8B1;
+}
+.join__logo {
+  margin-bottom: 24px;
+}
+.join__text {
+  font-size: 43px;
+  line-height: 58px;
+  margin-bottom: 23px;
+}
+.join__info {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+}
+
+.footer {
+  background: #F9F9F9;
+  padding-bottom: 25px;
+}
+.footer__container {
+  position: relative;
+}
+.footer__content {
+  display: flex;
+  margin-bottom: 80px;
+}
+.footer__left {
+  padding-top: 76px;
+  margin-right: 23px;
+}
+.footer__a {
+  color: black;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 16px;
+}
+.footer__a-last {
+  margin-bottom: 0;
+}
+.footer__h {
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+.footer__center {
+  padding-top: 76px;
+}
+.footer__info {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+  color: #A0A0A0;
+  max-width: 348px;
+  margin-bottom: 91px;
+}
+.footer__right {
+  position: absolute;
+  right: 0;
+}
+.footer__right-button {
+  background-color: black;
+  border: 0;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+  padding: 23px 30px;
+  cursor: pointer;
+}
+.footer__site {
+  display: flex;
+  gap: 38px;
+  position: absolute;
+  right: 0;
+}
+.footer__law {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.8px;
+  color: #707A7F;
+}
+
+/*# sourceMappingURL=main.css.map */
